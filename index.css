@@ -1,4 +1,4 @@
-.first-side {
+.card {
     box-sizing: border-box;
     width: 100vw;
     height: 100vh;
@@ -9,14 +9,19 @@
     padding: 20vh;
 }
 
-.firsd-side-content {
+.firsd-side {
     width: 100%;
     width: 300px;
     height: 400px;
     background-color: white;
     margin: 0 auto;
-    border: 15px solid rgb(2, 61, 61);
+    border: 15px solid rgb(36, 112, 112);
     border-radius: 25px;
+    transition: all 800ms ease 200ms;
+}
+
+.firsd-side:hover {
+    transform: rotateY(180deg);
 }
 
 .image {
@@ -38,6 +43,9 @@
     text-align: center;
 }
 
-.second-side-content {
+.second-side {
     display: none;
+    -webkit-box-shadow: 0px 0px 33px -4px rgba(36, 174, 156, 0.45) inset;
+    -moz-box-shadow: 0px 0px 33px -4px rgba(36, 174, 156, 0.45) inset;
+    box-shadow: 0px 0px 33px -4px rgba(36, 174, 156, 0.45) inset;
 }
