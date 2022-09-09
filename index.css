@@ -6,6 +6,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .card {
     width: 300px;
@@ -22,7 +25,7 @@
     border-radius: 25px;
     position: absolute;
     backface-visibility: hidden;
-    transition: all 1000ms ease 200ms;
+    transition: all 1000ms ease 100ms;
 }
 
 .second-side {
@@ -63,4 +66,7 @@ article {
     font-size: 20px;
     line-height: 1.5em;
     color: rgb(9, 82, 82);
+}
+p {
+    padding-top: 4px;
 }
