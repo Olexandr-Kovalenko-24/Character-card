@@ -1,0 +1,43 @@
+.first-side {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/futurama.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    padding: 20vh;
+}
+
+.firsd-side-content {
+    width: 100%;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin: 0 auto;
+    border: 15px solid rgb(2, 61, 61);
+    border-radius: 25px;
+}
+
+.image {
+    width: 235px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid white;
+    object-fit: cover;
+}
+
+.character-name {
+    margin: 3% 0%;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(0, 150, 150);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.second-side-content {
+    display: none;
+}
